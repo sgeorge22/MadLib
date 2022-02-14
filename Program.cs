@@ -6,7 +6,9 @@ namespace MadLib
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var madLibStory = new MadLib();
+
+            madLibStory.MadLibStory();
         }
     }
 }
